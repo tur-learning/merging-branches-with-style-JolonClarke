@@ -1,9 +1,8 @@
-import utils
+from utils import add, mult
 
 def main():
-    print("Welcome to the Awesome Math Program!")
-    print("This code has been updated on master branch.")
+    print("You are on the master branch")
+    result = mult(10, 7)
+    print("The result of the multiplication is " + str(result) + ".")
 
-# What is this??
-if __name__ == "__main__":
-    main()
+main()
