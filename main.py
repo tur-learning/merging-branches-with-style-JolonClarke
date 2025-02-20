@@ -1,4 +1,4 @@
-from utils import add
+from utils import add, mult
 
 def main():
     print("You are on the feature_a branch")
@@ -6,5 +6,9 @@ def main():
     b = 50
     result = add(a, b)
     print("The result of the addition is " + str(result) + ".")
+
+main()
+    result = mult(10, 7)
+    print("The result of the multiplication is " + str(result) + ".")
 
 main()
